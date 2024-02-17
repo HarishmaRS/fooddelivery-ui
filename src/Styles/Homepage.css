@@ -1,0 +1,41 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.home-section{
+    position: absolute;
+    top: 170px;
+    text-align: center;
+    width: 100%;
+}
+.home-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 58px;
+    font-size: 30px;
+    font-weight: 500;
+    color: red;
+    margin: auto;
+    background-color: white;
+}
+.home-section .title{
+    font-size: 25px;
+    color: white;
+}
+.inputbox{
+    display: inline-block;
+}
+.home-section .locationBox{
+    height: 40px;
+    width: 200px;
+    opacity: 80%;
+    color: black;
+    border-radius: 5px;
+}
+.searchBox > input{
+    height: 40px;
+    width: 270px;
+    opacity: 80%;
+    border-radius: 5px;
+    border: none;
+}
