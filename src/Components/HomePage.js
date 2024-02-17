@@ -1,13 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from "./Header";
-import '../Styles/Homepage.css'
+import TheHeader from "./TheHeader";
 
 const Homepage = () => {
     return (
         <div>
-            <Header backgroundColor= "red" visibility="hidden"/>
-            <img src="./assets/backgroundimage.png" width="100%" height="550px" alt="HomepageImage"/>
+            <TheHeader backgroundColor= "red" visibility="hidden"/>
+            <img src="assets/lunch.jpg" width="100%" height="550px" alt="HomepageImage"/>
             <div className="home-section">
                 <div className="home-logo">e!</div>
                 <div className="title m-3">Find the best restaurants, cafes, and bars</div>
@@ -27,5 +26,4 @@ const Homepage = () => {
         </div>
     )
 }
-
 export default Homepage;

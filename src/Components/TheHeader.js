@@ -1,6 +1,6 @@
 import React from "react";
 import '../Styles/Header.css';
-const Header = ({ backgroundColor, visibility }) => {
+const TheHeader = ({ backgroundColor, visibility }) => {
     const customStyle = {
         backgroundColor: backgroundColor || '#000',
         visibility: visibility || 'block'
@@ -16,4 +16,4 @@ const Header = ({ backgroundColor, visibility }) => {
     )
 }
 
-export default Header;
+export default TheHeader;

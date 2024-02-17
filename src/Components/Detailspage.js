@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./Header";
+import TheHeader from "./TheHeader";
 
 const Detailspage = () => {
     return (
         <div>
-            <Header backgroundColor="red" visibility="visibility"></Header>
+            <TheHeader backgroundColor="red" visibility="visibility"/>
         </div>
     )
 }
